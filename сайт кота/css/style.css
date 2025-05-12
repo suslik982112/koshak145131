@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-panel {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.cat-gallery img {
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.bio {
+    margin-top: 20px;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.logs {
+    margin-top: 30px;
+    background: rgba(255,255,255,0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.logs ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logs li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.theme-switcher {
+    margin: 20px 0;
+}
+
+body.theme-set {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: #fff;
+}
+body.theme-tema {
+    background: #1e1e1e;
+    color: #00ff99;
+}
+body.theme-lake {
+    background: linear-gradient(to bottom, #a8edea, #fed6e3);
+    color: #333;
+}
+body.theme-cyber {
+    background: radial-gradient(circle, #0f2027, #203a43, #2c5364);
+    color: #39ff14;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Панель адміністратора</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body id="admin-body" class="theme-sub">
+    <div class="admin-panel">
+        <h1>Привіт, Admin123!</h1>
+        <div class="theme-switcher">
+            <label>Вибрати тему:</label>
+            <select id="theme-select">
+                <option value="theme-sub">Суббуху Могокута</option>
+                <option value="theme-metro">Метро 2033</option>
+                <option value="theme-lake">Озеро Спокою</option>
+                <option value="theme-cyber">КіберКіт</option>
+            </select>
+        </div>
+
+        <div class="cat-gallery">
+            <img src="img/cat1.jpg" alt="Кіт 1">
+            <img src="img/cat2.jpg" alt="Кіт 2">
+            <img src="img/cat3.jpg" alt="Кіт 3">
+        </div>
+
+        <div class="bio">
+            <h3>Біографія кота:</h3>
+            <p>Ім’я: Мурчик<br>
+            Вік: 15 козячих років<br>
+            Особливості: дуже пухнастий, любить гратися, гуляти на вулиці та їсти. Полюбляє котячі іграшки.</p>
+        </div>
+
+        <audio controls>
+            <source src="dont-be-so-shy.mp3" type="audio/mpeg">
+            Ваш браузер не підтримує аудіо.
+        </audio>
+
+        <div class="logs">
+            <h3>Логи входу:</h3>
+            <ul id="log-list"></ul>
+        </div>
+    </div>
+</body>
+</html>
